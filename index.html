@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willst du mein Valentine sein? ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <img src="herzemoji.png" alt="Süßes Emoji" class="emoji">
+        <h1>Möchtest du dieses Jahr wieder mein Valentine sein? ❤️</h1>
+        <h6>(also eigentlich für immer, aber wer liest schon das Kleingedruckte hihi)</h6>
+        
+        <div class="button-container">
+            <button id="yesButton">JA IST DOCH WOHL KLAR</button>
+            <button id="noButton">Mhhhhh NOPE Sorry</button>
+        </div>
+    </div>
+
+    <!-- Overlay für die Bestätigung -->
+    <div id="overlay">
+        <img src="cat-cats.gif" alt="Feiernde Katzen" class="cat-gif">
+
+        <!-- Countdown eigene Box ganz oben -->
+        <div class="message-box countdown-box">
+            <div id="countdown-overlay"></div>
+        </div>
+
+        <!-- Erste Nachricht -->
+        <div class="message-box">
+            <h1 id="firstMessage">YAYYYYY! Ich freue mich so sehr du hattest ofc keine andere wahl aber naja hihihihi ich liebe dich so sehr! Dankeschön ❤️ du bist wirklich toll ich hoffe es gefällt dir es war bisschen anstrengend aber eyyy dank ai hat es nur 5 tage gedauert hahahahaha</h1>
+        </div>
+
+        <!-- Zweite Nachricht (kommt nach 40 Sekunden) -->
+        <div id="secondMessage" class="hidden">
+            <div class="message-box">
+                <h3 id="secondMessage"> ich liebe dich wirklich so sehr ich verspreche dir ich werde dir in zukunft die besten valendienstage geben akktuel kann ich dir nur meine herz, liebe, vertrauen und zeit geben aber es wird besser du hast nichts außer perfektion verdient und die will ich versuchen dir das zu geben ich bitte dich nur zu warten udn zu vertrauen mit mir zu reden und zuzuhören mich versuchen zu verstehen war ich vielleicht manchen so sehe und mir eine andere perspektive zu ermöglichen so wie du es bisher getan hast nur weil ich es vielleivht falsch fand ware es das nicht erkläre mmir ich werde dich niemals jugden ich verspreche jemad zu waerden der es wert ist neben dir zu stehen soö wie du es verdient hast ich habe einmal eine einen satz gelesen wo ich an dich denken musste <h2> between seas, galaxies and moons I was lucky I stepped on the same land I dreamed under the same stars as you Ich bin der Glückliche bei dir sein zu düfen das werde ich immer sein</h2></h3>
+            </div>
+        </div>
+    </div>
+
+    <audio id="backgroundMusic" src="le-festin.mp3"></audio>
+
+</body>
+</html>
